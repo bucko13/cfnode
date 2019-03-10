@@ -1,0 +1,17 @@
+{
+  "name": "cfnode",
+  "version": "0.0.1",
+  "description": "Extension of bcoin to easily run a node for serving bitcoin compact filters (BIPs 157 & 158)",
+  "main": "./lib/index.js",
+  "author": "Bucko",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "cfnode": "./bin/cfnode"
+  },
+  "dependencies": {
+    "bcoin": "bucko13/bcoin#expose-filter",
+    "bmutex": "^0.1.5",
+    "bsert": "^0.0.8"
+  }
+}
